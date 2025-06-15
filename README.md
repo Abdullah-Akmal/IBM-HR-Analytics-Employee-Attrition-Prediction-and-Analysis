@@ -1,5 +1,5 @@
 # HR Attrition Analysis
-
+Note: Due to large size code is in rar
 ## Description  
 This notebook analyzes employee attrition using HR data to identify key factors driving workforce turnover. It applies machine learning and visualization techniques to predict attrition risk and provide actionable HR insights for retention strategies.  
 **[Dataset Source – IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)**
