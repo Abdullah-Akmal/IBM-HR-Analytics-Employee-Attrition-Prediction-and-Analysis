@@ -1,8 +1,8 @@
 # IBM HR Analytics: Employee Attrition Prediction and Analysis
 
-## Project Overview
+## Problem Statement
 
-Employee attrition presents a significant challenge for organizations, leading to the loss of talent, increased recruitment costs, and operational disruptions. This project analyzes IBM's HR dataset to identify key factors influencing employee attrition and develops predictive models to classify employees at risk of leaving. The objective is to assist HR teams in making data-driven decisions for talent retention and workforce planning.
+Employee attrition poses a critical challenge for organizations, resulting in talent loss, elevated recruitment costs, and operational disruptions. Traditional HR metrics often fail to capture the complex interplay of workplace factors that drive turnover. This project leverages IBM’s HR Analytics dataset to identify the key drivers of employee departure—such as job satisfaction, work–life balance, overtime, and career growth opportunities—and builds predictive models (Random Forest, Logistic Regression, Decision Trees) enhanced with SMOTE and explainable via LIME. The goal is to equip HR teams with accurate, interpretable insights and early-warning systems to proactively retain talent and optimize workforce planning.
 
 ---
 
@@ -14,8 +14,7 @@ Employee attrition presents a significant challenge for organizations, leading t
   - matplotlib, seaborn – Data visualization  
   - scikit-learn – Machine learning (Random Forest, Logistic Regression, Decision Trees, GridSearchCV)  
   - imbalanced-learn – SMOTE for handling class imbalance  
-  - LIME – Model explainability  
-- **Business Intelligence**: Power BI  
+  - LIME – Model explainability   
 - **Dataset Source**: [IBM HR Analytics Dataset on Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
 ---
@@ -25,7 +24,7 @@ Employee attrition presents a significant challenge for organizations, leading t
 ### 1. Exploratory Data Analysis (EDA)
 
 - Dataset: 1,470 employees with 35 features  
-- Target Variable: `Attrition` (Yes/No) — imbalanced with 237 "Yes" and 1,233 "No"  
+- Target Variable: Attrition (Yes/No) — imbalanced with 237 "Yes" and 1,233 "No"  
 - Key Insights:  
   - Higher attrition among employees with lower job satisfaction, poor work-life balance, and extended overtime  
   - Roles with limited career growth and lower income showed greater attrition  
